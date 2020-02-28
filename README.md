@@ -16,8 +16,8 @@ Dataset id attached in the root of the directory ```minard-data.csv```
 
 ## Project Run
 1. Run the command ```python minard.py```
-2. This will generate the image ```minard.svg```
-3. Open ```index.html``` in your browser to view the image.
+2. This will generate the image ```index.html```
+3. Open ```index.html``` in your browser to view the graph.
 
 
-#### [DEMO](https://tulsyanp.github.io/data-visualization-python-altair-minard-map/) 
+#### [DEMO](https://tulsyanp.github.io/data-visualization-python-altair-charles-minards-map/) 

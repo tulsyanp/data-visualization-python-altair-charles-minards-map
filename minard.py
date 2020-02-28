@@ -63,8 +63,10 @@ def chartcreation(temp,army,city):
 
     troops_text_chart = alt.Chart(troops_text).mark_text(
         font='Verdana',
-        fontSize=9,
+        fontSize=8,
         fontStyle='italic',
+        dx=1,
+        dy=8,
         angle=280
     ).encode(
         longitude='lon:Q',
@@ -81,10 +83,10 @@ def chartcreation(temp,army,city):
 
     cities_chart_text = alt.Chart(cities).mark_text(
         font='Verdana',
-        fontSize=10,
+        fontSize=9,
         fontStyle='bold',
-        dx=-3,
-        dy=-13
+        dx=7,
+        dy=-12
     ).encode(
         longitude='lon:Q',
         latitude='lat:Q',
